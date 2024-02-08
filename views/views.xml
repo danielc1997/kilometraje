@@ -7,7 +7,6 @@
       <field name="model">agenda.agenda</field>
       <field name="arch" type="xml">
         <tree>
-          <field name="tecnico"/>
           <field name="kilometraje_inicial"/>
           <field name="kilometraje_final"/>
           <field name="fecha_kilometraje"/>
@@ -16,10 +15,11 @@
           <field name="observacion"/>
 
         <field name='imagen_inicial' widget="image" class="oe_avatar" />
+        
 
         <field name='imagen_final' widget="image" class="oe_avatar" />
-         
-        </tree>
+        <field name='contacto' />
+            </tree>
       </field>
     </record>
 
